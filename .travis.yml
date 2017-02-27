@@ -1,4 +1,10 @@
 language: go
-
 go:
-  - 1.7.x
+- 1.7.x
+deploy:
+  provider: releases
+  api_key:
+    secure: 36ATcO1R/oPUSt2pQTQwZhoYtouu3rAFkB6DaeynerNFUgEDunbQV4fdUWGxadPeZKxhwfz3jBFMxjG+tgIjrLGDVpRyg2h1zfiq6Yu1pyhBUAkHH1GEQyuFRSP44mw8VRPIhDfkcXD+0iJ0Wifqlv405CAN3gRFUTOOCSgmiHlA4YJp0oi3XSAfzi+4VXQxs1dV8B/6KP/Thg6hyQxkGyglgSIR7EBXmkie1fe+KGZSDm9WXdLL0Zv0K4L+fSh7TEQH7yDJbLdVNMLK35+9MNtyVP61SBpj67RkBOAmkUhEzCcaqTMMC/GnUDLOnUtw3c2c6l2fGKPIDjdNVpzG/7eGxOnuEIHMhSLbSnw+bW6R5OBkP04m6xGk5SOqY/VGMHEtKG+yBWWZHr5vqE/6tztzyT494W0P1kMARi0+QBdasMBlMI0F6Xf+sex38oj4zH5Npa7YemFeko6A/wZgBVpMSMbva6BntikdxVVAK9dwjQ83nLkDFKjU/lFSWS4zQoBrsXNroeDI2Zy8MwLuK2a3oKid7Uqmsn0BVVBHuW1U7QH5J3GC6SF0+xKmHyKVFc06E7Lo7fxmiO118ktKOL9kWPM1ZTUYaF4PKRBUXl602MgK6ENkytM5TPe5oQlCGHx54qA03Xu7mTPLHQtxjwpB0nBpzzjXD1Sg0f58nF0=
+  file: streamdl
+  on:
+    repo: colde/streamdl
