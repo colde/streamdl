@@ -60,6 +60,8 @@ func main() {
 	} else {
 		defer response.Body.Close()
 
+		stream_url = response.Request.URL.String()
+
 		manifest := new(SmoothStreamingMedia)
 
 		body, err := ioutil.ReadAll(response.Body)
